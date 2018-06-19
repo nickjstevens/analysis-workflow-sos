@@ -6,7 +6,7 @@ Clone the repository and cd into it.
 
 
 
-
+In Kitematic, open the Docker CLI, navigate (`cd`) to the folder you want to work in and run:
 `docker run -d --name my-sos -p 8888:8888 -v $(pwd):/home/jovyan/work  mdabioinfo/sos-notebook`
 
 
